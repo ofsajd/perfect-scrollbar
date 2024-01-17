@@ -1,20 +1,18 @@
 {
-  "name": "perfect-scrollbar",
-  "version": "1.5.5",
+  "name": "@ofsajd/perfect-scrollbar",
+  "version": "1.0.0",
   "description": "Minimalistic but perfect custom scrollbar plugin",
-  "author": "Hyunje Jun <me@noraesae.net>",
   "keywords": [
     "frontend",
     "scroll",
     "scrollbar"
   ],
-  "homepage": "https://perfectscrollbar.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdbootstrap/perfect-scrollbar"
+    "url": "https://github.com/ofsajd/perfect-scrollbar"
   },
   "bugs": {
-    "url": "https://github.com/mdbootstrap/perfect-scrollbar/issues"
+    "url": "https://github.com/ofsajd/perfect-scrollbar/issues"
   },
   "jspm": {
     "main": "dist/perfect-scrollbar.common.js",

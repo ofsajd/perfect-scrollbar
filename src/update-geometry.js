@@ -83,7 +83,7 @@ export default function(i) {
     element.classList.remove(cls.state.active('x'));
     i.scrollbarXWidth = 0;
     i.scrollbarXLeft = 0;
-    element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
+    // element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
   }
   if (i.scrollbarYActive) {
     element.classList.add(cls.state.active('y'));
@@ -91,7 +91,7 @@ export default function(i) {
     element.classList.remove(cls.state.active('y'));
     i.scrollbarYHeight = 0;
     i.scrollbarYTop = 0;
-    element.scrollTop = 0;
+    // element.scrollTop = 0;
   }
 }
 

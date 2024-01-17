@@ -1,6 +1,6 @@
 /*!
- * perfect-scrollbar v1.5.3
- * Copyright 2021 Hyunje Jun, MDBootstrap and Contributors
+ * perfect-scrollbar v1.5.5
+ * Copyright 2024 Hyunje Jun, MDBootstrap and Contributors
  * Licensed under MIT
  */
 
@@ -398,7 +398,7 @@ function updateGeometry(i) {
     element.classList.remove(cls.state.active('x'));
     i.scrollbarXWidth = 0;
     i.scrollbarXLeft = 0;
-    element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
+    // element.scrollLeft = i.isRtl === true ? i.contentWidth : 0;
   }
   if (i.scrollbarYActive) {
     element.classList.add(cls.state.active('y'));
@@ -406,7 +406,7 @@ function updateGeometry(i) {
     element.classList.remove(cls.state.active('y'));
     i.scrollbarYHeight = 0;
     i.scrollbarYTop = 0;
-    element.scrollTop = 0;
+    // element.scrollTop = 0;
   }
 }
 
